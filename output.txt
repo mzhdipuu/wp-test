@@ -1,0 +1,10 @@
+METABOX OUTPUT
+===============
+get_post_meta(get_the_ID(),'ID NAME', true);
+
+
+REDUX OUTPUT
+===============
+global $redux
+
+echo $redux ['id'];
